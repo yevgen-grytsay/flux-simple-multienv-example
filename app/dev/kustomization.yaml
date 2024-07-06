@@ -3,6 +3,7 @@ kind: Kustomization
 namespace: dev
 resources:
   - ../base
+  - namespace.yaml
 images:
   - name: gcr.io/google-samples/hello-app
     newTag: "2.0"
